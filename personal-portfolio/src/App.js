@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "./components/NavBar/NavBar";
 import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
+import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+import {Contact} from "./components/Contact.jsx";
 import { Footer } from "./components/Footer";
-
 function App() {
   return (
     <div className="App">
