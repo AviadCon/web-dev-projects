@@ -1,6 +1,7 @@
 import meter1 from "./img/meter1.svg";
 import meter2 from "./img/meter2.svg";
 import meter3 from "./img/meter3.svg";
+import makeLogo from "./img/make.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "./img/color-sharp.png"
@@ -41,8 +42,8 @@ export const Skills = () => {
                         autoPlaySpeed={3000}
                         className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={makeLogo} alt="Image" />
+                                <h5>Make</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
